@@ -1,0 +1,12 @@
+
+dif(x, y)
+  if (x <> y)
+    forward(10);
+    right(90);
+    forward(10);
+  end if;
+end dif;
+
+dif(5,4);
+right(135);
+forward(15);

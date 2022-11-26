@@ -1,0 +1,4 @@
+forward(10);
+
+left(45); end if;
+back(20 - 5.a);

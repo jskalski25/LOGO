@@ -1,0 +1,9 @@
+back(10);
+forward(10);
+right(45);
+forward(15);
+back(15);
+right(45);
+if (5 = 5)
+  forward(20);
+end if;

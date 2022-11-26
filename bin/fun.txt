@@ -1,0 +1,16 @@
+func1()
+  right(45);
+  forward(20);
+  left(130);
+  forward(20);
+end func;
+
+func2()
+  left(45);
+  forward(20);
+  right(130);
+  forward(20);
+end func;
+
+func1();
+func2();

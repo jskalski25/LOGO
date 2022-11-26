@@ -1,0 +1,18 @@
+forward(15);
+if (3 > 2)
+  right(90);
+  forward(15);
+end if;
+if (3 < 2)
+  right(90);
+  forward(15);
+end if;
+if (2 = 2)
+  if (1 = 1)
+    right(45);
+    if (2 > 3)
+      forward(15);
+    end if;
+    left(45);
+  end if;
+end if;

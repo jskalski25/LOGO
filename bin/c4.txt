@@ -1,0 +1,19 @@
+c4(x,n)
+    if(n>0)
+        forward(x);
+        left(45);
+        c4(x*0.7071067811865475,n-1);
+        right(90);
+        forward(x*0.7071067811865475);
+        c4(x*0.7071067811865475,n-1);
+        right(90);
+        forward(x*0.7071067811865475);
+        right(45);
+        forward(x);
+        right(90);
+        forward(x);
+        right(90);
+    end if;
+end c4;
+
+c4(100,14);

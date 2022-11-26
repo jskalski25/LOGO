@@ -1,0 +1,9 @@
+func(a, b)
+  right(a);
+  forward(20);
+  back(20);
+  left(b);
+  forward(20);
+end func;
+
+func(45, 90);

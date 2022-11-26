@@ -1,0 +1,8 @@
+back(20-10);
+forward(5+5);
+right(45);
+forward(10+5);
+back(20-5);
+left(45*2);
+forward(15);
+back(10+5);
